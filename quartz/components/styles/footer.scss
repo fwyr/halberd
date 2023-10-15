@@ -1,7 +1,16 @@
 footer {
   text-align: left;
   margin-bottom: 4rem;
-  opacity: 0.7;
+  
+  &:not(.dedication) {
+    opacity: 0.7;
+  }
+
+  & p {
+    .dedication {
+      opacity: 1;
+    }
+  }
 
   & ul {
     list-style: none;
