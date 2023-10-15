@@ -3,14 +3,14 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "🚀 halberd",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "halberd.brainrot.co",
+    ignorePatterns: ["private", "templates", ".obsidian", "misc"],
     defaultDateType: "created",
     theme: {
       typography: {
@@ -20,14 +20,14 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#faf4ed",
+          lightgray: "#f2e9e1",
+          gray: "#9893a5",
+          darkgray: "#797593",
+          dark: "#575279",
+          secondary: "#286983",
+          tertiary: "#56949f",
+          highlight: "rgba(234, 157, 52, 0.15)",
         },
         darkMode: {
           light: "#161618",
@@ -52,9 +52,10 @@ const config: QuartzConfig = {
       Plugin.SyntaxHighlighting(),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }), // absolute | shortest | relative
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.Description(),
+      Plugin.HardLineBreaks(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
