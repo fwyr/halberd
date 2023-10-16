@@ -1,7 +1,7 @@
 ---
 title: welcome to halberd!
 ---
-
+![[Pasted image 20231016150255.png]]
 everything that rises must converge.
 
 please use light mode. graphics may not be seen otherwise.
