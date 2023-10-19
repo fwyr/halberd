@@ -13,3 +13,6 @@ please use light mode. graphics may not be seen otherwise.
 
 ## year V
 - [[9758]] — h2 mathematics
+
+## others
+- [[quantus]] — quantum mechanics
