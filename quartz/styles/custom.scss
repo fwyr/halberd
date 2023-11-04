@@ -5,3 +5,7 @@
     font-weight: 600;
     margin: 0;
 }
+
+[saved-theme="dark"] img:not(.cats) {
+    filter: invert(100%);
+}
