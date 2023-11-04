@@ -88,12 +88,12 @@ There are several rules governing the assignment of an oxidation state.
 
 ## Electronegativity
 
-************************************************************Electronegativity************************************************************ refers to the ability of an atom to attract the shared pair of electrons towards itself in a covalent bond.
+**Electronegativity** refers to the ability of an atom to attract the shared pair of electrons towards itself in a covalent bond.
 
-- Electronegativity ************************************increases across a period************************************.
-- Electronegativity ********************************************decreases down a group********************************************.
+- Electronegativity **increases across a period**.
+- Electronegativity **decreases down a group**.
 
-In covalent compounds, the negative oxidation state is assigned to the **************************************************most electronegative atom**************************************************.
+In covalent compounds, the negative oxidation state is assigned to the **most electronegative atom**.
 
 ## Oxidation and reduction
 Oxidation is the **increase in oxidation state** of an element in a substance during a reaction, whereas reduction is the **decrease in oxidation state** of an element in a substance during a reaction. 
