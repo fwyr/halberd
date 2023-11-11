@@ -1,7 +1,6 @@
 ---
 title: Chemical Bonding
 topic: "6092"
-date: 2023-10-22
 ---
 # Ionic bonding
 Ionic bonds

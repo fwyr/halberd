@@ -9,3 +9,9 @@
 [saved-theme="dark"] img:not(.cats) {
     filter: invert(100%);
 }
+
+br {
+    display: block;
+    content: "";
+    margin-top: 6px;
+}
