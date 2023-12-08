@@ -2,7 +2,7 @@
   "name": "halberd",
   "description": "The academic weapon of all time.",
   "private": true,
-  "version": "1.0.0",
+  "version": "4.1.2",
   "type": "module",
   "author": "fwyr",
   "license": "MIT",
@@ -23,12 +23,10 @@
     "node": ">=18.14"
   },
   "keywords": [
-    "site generator",
-    "ssg",
-    "digital-garden",
-    "markdown",
-    "blog",
-    "quartz"
+    "halberd",
+    "notes",
+    "mathematics",
+    "science"
   ],
   "bin": {
     "quartz": "./quartz/bootstrap-cli.mjs"
